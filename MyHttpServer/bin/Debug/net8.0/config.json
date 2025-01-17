@@ -1,0 +1,6 @@
+{
+  "Domain": "localhost",
+  "Port": 8888,
+  "StaticDirectoryPath": "public/",
+  "ConnectionString": "Data Source=localhost;Initial Catalog=master;User ID=sa;Password=P@ssw0rd;"
+}

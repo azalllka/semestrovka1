@@ -1,0 +1,13 @@
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/bin/Debug/net8.0/ORMLibrary.deps.json
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/bin/Debug/net8.0/ORMLibrary.dll
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/bin/Debug/net8.0/ORMLibrary.pdb
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.csproj.AssemblyReference.cache
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.AssemblyInfoInputs.cache
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.AssemblyInfo.cs
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.csproj.CoreCompileInputs.cache
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.dll
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/refint/ORMLibrary.dll
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.pdb
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ref/ORMLibrary.dll
+/Users/azalka/Documents/Семестровка/Rezka/ORMLibrary/obj/Debug/net8.0/ORMLibrary.sourcelink.json

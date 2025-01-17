@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #999;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #666;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* outline: none; */
+}
+
+
+input[type="text"],
+input[type="password"] {
+    border: none; /* убирает рамки */
+    background-color: #f0f0f0; /* задает серый фон */
+    padding: 10px;   /* добавляет внутренние отступы, чтобы текст не был впритык к краям */
+    border-radius: 2px; /*  округление углов */
+    /* margin-bottom: 5px; добавляет нижний отступ */
+     outline: none; /* убирает контур при фокусе */
+
+}
+
+/* убираем дефолтный контур при фокусе*/
+input[type="text"]:focus,
+input[type="password"]:focus
+ {
+    outline: none;
+   box-shadow: 0 0 0 2px #0a8b98; /*  подсветка при фокусе*/
+   border: 8px;
+   box-shadow: 0 0 3px 2px #c8e6f7; /* голубая подсветка */
+
+}
+
+::placeholder { /* изменяет цвет placeholder*/
+  color:  #999;
+}
+
+
+
+
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.form-options a {
+    text-decoration: none;
+    color: #0a8b98;
+}
+
+.form-options a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    padding: 10px;
+    background: #0a8b98;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #0a8b98;
+}
+
+.social-login {
+    margin-top: 20px;
+    /* text-align: center; */
+    position: relative;
+    padding-top: 10px;
+}
+
+.social-login h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.separator {
+    position: relative;
+    margin: 10px 0;
+}
+
+.separator::before {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 1px;
+   background-color: #e0e0e0;
+
+}
+
+.register {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.register a {
+    text-decoration: none;
+    color: #0a8b98;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}

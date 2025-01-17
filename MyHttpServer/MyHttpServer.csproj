@@ -1,0 +1,137 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Rezka</RootNamespace>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HttpServerLibrary\HttpServerLibrary.csproj" />
+      <ProjectReference Include="..\ORMLibrary\ORMLibrary.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="config.json" />
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+      <Content Include="config.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\entrance.html" />
+      <Content Include="public\entrance.html">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\movie.html" />
+      <Content Include="public\movie.html">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\index.html" />
+      <Content Include="public\index.html">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\registration.html" />
+      <Content Include="public\registration.html">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\films\Зеленая миля.jpg" />
+      <None Remove="public\assets\img\вк.png" />
+      <None Remove="public\assets\img\vk.png" />
+      <Content Include="public\assets\img\vk.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\moon.png" />
+      <Content Include="public\assets\img\moon.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\three-circles.png" />
+      <Content Include="public\assets\img\three-circles.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\films\Жизнь человека.jpg" />
+      <None Remove="public\assets\img\switch.png" />
+      <Content Include="public\assets\img\switch.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\arrow.png" />
+      <Content Include="public\assets\img\arrow.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\лупа.png" />
+      <None Remove="public\assets\img\hdrezka-logo.png" />
+      <Content Include="public\assets\img\hdrezka-logo.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\star-empty.png" />
+      <Content Include="public\assets\img\star-empty.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\star-full.png" />
+      <Content Include="public\assets\img\star-full.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\play.png" />
+      <Content Include="public\assets\img\play.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\1596900020664466006.MP4" />
+      <None Remove="public\assets\img\hdrezka-logo — копия.png" />
+      <Content Include="public\assets\img\hdrezka-logo — копия.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\css\registrationstyles.css" />
+      <Content Include="public\assets\css\registrationstyles.css">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\img\films\Побег из шоушенка.jpeg" />
+      <None Remove="public\assets\img\твиттер.png" />
+      <None Remove="public\assets\img\films\Милен фармер.jpg" />
+      <None Remove="public\assets\css\stylesentrance.css" />
+      <Content Include="public\assets\css\stylesentrance.css">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\css\styles.css" />
+      <Content Include="public\assets\css\styles.css">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\css\stylesfilm.css" />
+      <Content Include="public\assets\css\stylesfilm.css">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Update="public\assets\img\films\evgeni.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="public\assets\img\films\dog.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="public\assets\img\films\madonna.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="public\assets\img\films\tishina.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Remove="public\admin.html" />
+      <Content Include="public\admin.html">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="public\assets\js\movie.js" />
+      <Content Update="public\movie.js">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.1.0" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="public\assets\js\" />
+    </ItemGroup>
+
+</Project>

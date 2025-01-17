@@ -1,0 +1,793 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center; 
+    margin: 250px;
+    padding: 0;
+    /* height: 100vh; */
+    background-color: #000000;
+}
+ /* верхушка */
+.hd-rezka-background {
+    background: #313131;
+    margin: 0 auto;
+    width: 1000px;
+    height: 40px;
+}
+.hd-rezka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.left-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* Основной стиль для контейнера */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Кнопка */
+.dropdown button {
+    padding: 9px 5px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    color: #f0f0f0;
+}
+
+/* Скрытый список по умолчанию */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Стиль ссылок */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Показываем список при наведении */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.right-side button{
+    font-size: 15px;
+    border: none;
+    background: none;
+    color: #f0f0f0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+
+/* фильтры */
+.navigation-background {
+    background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+    margin: 0 auto;
+    width: 1000px;
+    height: 45px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu li a span {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.search-img {
+    align-items: center;
+    margin-left: 105px;
+}
+
+/* описание */
+.search input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    width: 180px;
+    /* border-radius: 4px; */
+}
+
+.film-background {
+    background: #ffffff;
+    margin: 0 auto;
+    width: 1000px;
+    height: 1950px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid #e0e0e0;
+}
+
+
+.movie-card {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.movie-card h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.movie-details {
+    display: flex;
+    gap: 20px;
+}
+
+.movie-poster {
+    flex: 0 0 170px;
+}
+
+.movie-poster img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-info p {
+    margin: 5px 0;
+}
+
+.movie-info .rating {
+    font-weight: bold;
+}
+
+.movie-info a {
+    color: #0a8b98;
+    text-decoration: none;
+}
+
+.movie-info a:hover {
+    text-decoration: underline;
+}
+
+.watch-trailer {
+    margin-top: 10px;
+}
+
+.watch-trailer button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.watch-trailer button:hover {
+    background-color: #555;
+}
+
+.movie-description {
+    margin-top: 20px;
+}
+
+.movie-description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* оценки и тд */
+.rating-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating-label {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+     white-space: nowrap;
+}
+
+.stars {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.rating-value {
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.rating-count {
+    color: gray;
+     font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 0px;
+    margin-bottom: 15px;
+}
+
+.reviews-button {
+    background-color: #0a8b98;
+    color: white;
+    padding: 10px 180px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.bookmarks-button {
+    background-color: #ffd966;
+    color: black;
+    padding: 10px 180px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    white-space: nowrap;
+    /*appearance: none; */
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*outline: none;*/
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.bookmarks-button:active {
+    transform: scale(0.95);
+    opacity: 0.8;
+}
+
+
+
+/* видео */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 900px;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 960px;
+    border-radius: 1px;
+    outline: none;
+}
+
+
+/* хлебные крошки и пагинация */
+.breadcrumbs {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #0a8b98;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    color: #333;
+}
+.pagination {
+    display: flex;
+    justify-content: center; /* Центрирует элементы */
+    align-items: center;
+    gap: 5px; /* Увеличивает расстояние между элементами */
+    font-size: 13px; /* Увеличивает размер шрифта */
+    margin-top: 20px;
+}
+
+.pagination .page {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px; /* Увеличивает внутренние отступы */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 500;
+}
+
+.pagination .page.active {
+    background-color: #ddd; /* Светлый фон для активной страницы */
+    color: #000;
+    border: none; /* Убирает границу */
+    pointer-events: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pagination .page:hover {
+    background-color: #0a8b98; /* Цвет при наведении */
+    color: #fff;
+}
+
+.pagination .dots {
+    color: #666;
+    font-size: 16px;
+}
+
+.pagination .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #000; /* Черный фон для кнопки "вперед" */
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.pagination .next:hover {
+    background-color: #333; /* Цвет при наведении */
+    color: #fff;
+}
+
+
+
+
+/* футер */
+.footer {
+    background-color: #000;
+    color: #ccc;
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.footer-flex {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Выравнивание элементов по верхнему краю */
+}
+.foot {
+    display: flex;
+    flex-direction: column; /* элементы в колонку */
+    padding-left: 15px; /* Отступ */
+}
+
+/* Меню в футере */
+.footer-menu {
+    display: flex;
+    justify-content: flex-start; /* Левое выравнивание */
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5px;
+}
+
+.footer-menu li {
+    font-size: 14px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #686868;
+    transition: color 0.3s;
+}
+
+.footer-menu a:hover {
+    color: white;
+}
+
+/* Описание */
+.footer-description {
+    margin: 10px 0 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-description a {
+    color: #0a8b98;
+    text-decoration: none;
+}
+
+.footer-description a:hover {
+    text-decoration: underline;
+}
+
+/* Социальные сети и копирайт */
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 75px;
+    font-size: 12px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 13px;
+}
+.footer-social a {
+    color: #686868;
+}
+.footer-social a:hover {
+    color: #fff;
+}
+
+
+.footer-social img {
+    width: 24px;
+    height: 20px;
+    filter: grayscale(1);
+    transition: filter 0.3s;
+}
+
+.footer-social img:hover {
+    filter: grayscale(0);
+}
+.footer-copyright {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.comment-input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: #efefef;
+    border-radius: 1px;
+    font-size: 14px;
+    resize: none;
+}
+
+.comment {
+    margin: 1px;
+    padding: 15px;
+    border: none;
+    border-radius: 1px;
+    background: #efefef;
+    position: relative;
+    
+}
+
+
+.reply {
+    margin-left: 40px;
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+}
+
+.reply-reply {
+    margin-left: 80px;
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar, .avatar-flag {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.avatar-flag {
+    background: none;
+    font-size: 20px;
+}
+
+.author-info {
+    font-size: 14px;
+}
+
+.author-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.comment-date {
+    font-size: 12px;
+    color: #666;
+    margin-left: 5px;
+}
+
+.comment-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.reply-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: #0a8b98;
+    cursor: pointer;
+}
+
+.reply-link:hover {
+    text-decoration: underline;
+}
+
+.like-btn {
+    font-size: 12px;
+    background: none;
+    color: #0a8b98;
+    border: none;
+
+    cursor: pointer;
+}
+
+.like-btn:hover {
+   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        display: block;
+        background-color: #000000;
+    }
+    
+    .navigation-background,
+    .hd-rezka-background,
+    .film-background {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .film-background {
+        height: auto;
+        padding: 15px;
+    }
+    
+
+    .menu{
+        display: none;
+    }
+
+    .navigation-background {
+        display: none;
+    }
+
+    .hd-rezka {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .left-subscribe {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .left-subscribe img {
+        display: none;
+    }
+    
+    .right-side {
+        margin: 0;
+    }
+
+    .right-side button,
+    .dropdown button {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+
+    .movie-card {
+        width: 100%;
+    }
+
+    .movie-details {
+        flex-direction: column;
+    }
+
+    .movie-poster {
+        flex: none;
+        margin-bottom: 10px;
+        width: 33vw;
+        height: 20vh;
+        
+    }
+
+    .movie-info {
+        width: 100%;
+    }
+
+    .movie-info p {
+        font-size: 16px;
+    }
+
+    .watch-trailer button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .rating-area {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .movie-info .rating {
+        font-size: 18px;
+    }
+
+    .stars {
+        margin-top: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .reviews-button,
+    .bookmarks-button {
+        width: 100%;
+    }
+    
+    .reviews-button {
+        padding: 10px 0;
+    }
+
+    .video-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+    }
+    
+    .comment-input{
+        padding: 10px 0;
+        width: 98%;
+    }
+
+    .pagination .page {
+        margin: 5px 0;
+        width: auto;
+        text-align: center;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-description {
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}

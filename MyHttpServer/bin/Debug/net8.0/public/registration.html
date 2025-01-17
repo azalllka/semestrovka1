@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Быстрая регистрация</title>
+    <link rel="stylesheet" href="assets/css/registrationstyles.css">
+    <style>
+        /* Стили для сообщений об ошибках */
+        .error-message {
+            color: #b93530;
+            font-size: 12px; /* Уменьшенный шрифт */
+            margin-top: 5px; /* Отступ от поля ввода */
+        }
+    </style>
+    <script>
+        function validateForm(event) {
+            // Отключаем встроенную валидацию браузера
+            event.preventDefault();
+
+            // Получаем значения из формы
+            const email = document.getElementById("email").value.trim();
+            const login = document.getElementById("login").value.trim();
+            const password = document.getElementById("password").value.trim();
+            const agree = document.getElementById("agree").checked;
+
+            // Очищаем предыдущие ошибки
+            document.querySelectorAll(".error-message").forEach((element) => {
+                element.textContent = "";
+            });
+
+            let hasErrors = false; // Флаг для проверки ошибок
+
+            // Проверка email
+            const emailError = document.getElementById("email-error");
+            if (!email) {
+                emailError.textContent = "Поле 'Email' не может быть пустым.";
+                hasErrors = true;
+            } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                emailError.textContent = "Введите корректный адрес электронной почты.";
+                hasErrors = true;
+            }
+
+            // Проверка логина
+            const loginError = document.getElementById("login-error");
+            if (!login) {
+                loginError.textContent = "Поле 'Логин' не может быть пустым.";
+                hasErrors = true;
+            } else if (login.length < 3 || login.length > 20) {
+                loginError.textContent = "Логин должен содержать от 3 до 20 символов.";
+                hasErrors = true;
+            }
+
+            // Проверка пароля
+            const passwordError = document.getElementById("password-error");
+            if (!password) {
+                passwordError.textContent = "Поле 'Пароль' не может быть пустым.";
+                hasErrors = true;
+            } else if (password.length < 6) {
+                passwordError.textContent = "Пароль должен быть не менее 6 символов.";
+                hasErrors = true;
+            } else if (!/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/.test(password)) {
+                passwordError.textContent =
+                    "Пароль должен содержать буквы в верхнем и нижнем регистре и хотя бы одну цифру.";
+                hasErrors = true;
+            }
+
+            // Проверка согласия с правилами
+            const agreeError = document.getElementById("agree-error");
+            if (!agree) {
+                agreeError.textContent = "Вы должны согласиться с правилами сайта.";
+                hasErrors = true;
+            }
+
+            // Если ошибок нет, отправляем форму
+            if (!hasErrors) {
+                event.target.submit();
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="overlay">
+    <div class="registration-form">
+        <div class="form-header">
+            <h2>БЫСТРАЯ РЕГИСТРАЦИЯ</h2>
+            <button class="close-btn">✖</button>
+        </div>
+        <div class="separator"></div>
+        <br>
+        <form action="/signup" method="POST" onsubmit="validateForm(event)" novalidate>
+            <div class="form-group">
+                <label for="email">Твой email *</label>
+                <input type="text" id="email" name="email">
+                <div id="email-error" class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="login">Твой логин *</label>
+                <input type="text" id="login" name="login">
+                <div id="login-error" class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль *</label>
+                <input type="password" id="password" name="password">
+                <div id="password-error" class="error-message"></div>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="agree">
+                <label for="agree">
+                    Я согласен с <a href="#">правилами сайта</a>
+                </label>
+                <div id="agree-error" class="error-message"></div>
+            </div>
+
+            <button type="submit" class="submit-btn">Зарегистрироваться</button>
+        </form>
+        <div class="separator"></div>
+        <div class="social-login">
+            <h3>ВХОД ЧЕРЕЗ АККАУНТ СОЦИАЛЬНОЙ СЕТИ:</h3>
+            <img src="assets/img/vk.png" height=45px alt="Вконтакте">
+        </div>
+        <div class="separator"></div>
+        <div class="form-footer">
+            <span>У тебя уже есть аккаунт? <a href="entrance.html">Заходи!</a></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

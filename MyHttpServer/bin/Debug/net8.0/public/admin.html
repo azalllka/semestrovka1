@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<header class="admin-header">
+    <h1>Добро пожаловать в админ-панель</h1>
+</header>
+
+<!-- Форма для добавления фильма -->
+<h2>Добавить новый фильм</h2>
+<form id="add-movie-form">
+    <input type="text" id="title" name="title" placeholder="Название фильма" required>
+    <input type="text" id="director" name="director" placeholder="Режиссер" required>
+    <input type="text" id="year" name="year" placeholder="Год" required>
+    <button type="submit">Добавить фильм</button>
+</form>
+
+<!-- Список фильмов -->
+<h2>Фильмы</h2>
+<table id="movies-table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Название</th>
+        <th>Режиссер</th>
+        <th>Год</th>
+        <th>Действия</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Фильмы будут загружаться через JavaScript -->
+    </tbody>
+</table>
+
+<script>
+    // Функция для загрузки всех фильмов
+    function loadMovies() {
+        $.get("/admin/movies", function(data) {
+            let tableBody = $("#movies-table tbody");
+            tableBody.empty();
+            data.forEach(movie => {
+                tableBody.append(`
+                <tr>
+                    <td>${movie.Id}</td>
+                    <td>${movie.Title}</td>
+                    <td>${movie.director}</td>
+                    <td>${movie.ReleaseDate}</td>
+                    <td>
+                        <button class="edit" data-id="${movie.Id}">Обновить</button>
+                        <button class="delete" data-id="${movie.Id}">Удалить</button>
+                    </td>
+                </tr>
+            `);
+            });
+        });
+    }
+
+    // Загрузка фильмов при загрузке страницы
+    $(document).ready(function() {
+        loadMovies();
+
+        // Добавление нового фильма через AJAX
+        $("#add-movie-form").submit(function(e) {
+            e.preventDefault();
+            let title = $("#title").val();
+            let director = $("#director").val();
+            let year = $("#year").val();
+
+            $.post("/admin/movies", { title: title, director: director, year: year }, function(response) {
+                loadMovies();
+            });
+        });
+
+        // Удаление фильма
+        $("#movies-table").on("click", ".delete", function() {
+            let movieId = $(this).data("id");
+            $.ajax({
+                url: `/admin/movies/${movieId}`,
+                type: 'DELETE',
+                success: function(response) {
+                    loadMovies();
+                }
+            });
+        });
+
+        // Обновление фильма
+        $("#movies-table").on("click", ".edit", function() {
+            let movieId = $(this).data("id");
+            window.location.href = `/admin/movies/edit/${movieId}`;
+        });
+    });
+</script>
+</body>
+</html>
