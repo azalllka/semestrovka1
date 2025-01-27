@@ -20,3 +20,4 @@
 /Users/azalka/Documents/Семестровка/Rezka/HttpServerLibrary/obj/Debug/net8.0/refint/HttpServerLibrary.dll
 /Users/azalka/Documents/Семестровка/Rezka/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.pdb
 /Users/azalka/Documents/Семестровка/Rezka/HttpServerLibrary/obj/Debug/net8.0/ref/HttpServerLibrary.dll
+/Users/azalka/Documents/Семестровка/Rezka/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.sourcelink.json

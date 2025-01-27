@@ -6,19 +6,16 @@
     <title>Быстрая регистрация</title>
     <link rel="stylesheet" href="assets/css/registrationstyles.css">
     <style>
-        /* Стили для сообщений об ошибках */
         .error-message {
             color: #b93530;
-            font-size: 12px; /* Уменьшенный шрифт */
-            margin-top: 5px; /* Отступ от поля ввода */
+            font-size: 12px;
+            margin-top: 5px; 
         }
     </style>
     <script>
         function validateForm(event) {
-            // Отключаем встроенную валидацию браузера
             event.preventDefault();
-
-            // Получаем значения из формы
+            
             const email = document.getElementById("email").value.trim();
             const login = document.getElementById("login").value.trim();
             const password = document.getElementById("password").value.trim();

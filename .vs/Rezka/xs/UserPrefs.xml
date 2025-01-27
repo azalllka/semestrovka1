@@ -1,14 +1,17 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+﻿<Properties StartupConfiguration="{E2EF3F11-B264-4313-9F17-6D5893561F9E}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyHttpServer PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Rezka" expanded="True" selected="True" />
+          <Node name="Rezka" expanded="True">
+            <Node name="HttpServerLibrary" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

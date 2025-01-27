@@ -131,3 +131,4 @@
 /Users/azalka/Documents/Семестровка/Rezka/MyHttpServer/bin/Debug/net8.0/public/assets/img/films/madonna.jpg
 /Users/azalka/Documents/Семестровка/Rezka/MyHttpServer/bin/Debug/net8.0/public/assets/img/films/tishina.jpg
 /Users/azalka/Documents/Семестровка/Rezka/MyHttpServer/bin/Debug/net8.0/public/admin.html
+/Users/azalka/Documents/Семестровка/Rezka/MyHttpServer/obj/Debug/net8.0/MyHttpServer.sourcelink.json

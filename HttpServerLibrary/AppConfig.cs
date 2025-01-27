@@ -6,7 +6,7 @@ public sealed class AppConfig
 { 
     public string ConnectionString { get; set; }
     
-    public static string Domain { get; set; } = "localhost";
+    public static string Domain { get; set; } = "*";
     
     public static uint Port { get; set; } = 8888;
     

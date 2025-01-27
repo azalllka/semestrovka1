@@ -7,7 +7,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b2b2f68-1051-40ca-8750-872fee73e24e" name="Changes" comment="" />
+    <list default="true" id="5b2b2f68-1051-40ca-8750-872fee73e24e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/dataSources/1efe2adb-53ef-4cb6-b034-44ff113e3023.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/dataSources/1efe2adb-53ef-4cb6-b034-44ff113e3023.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rezka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Rezka/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Rezka/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/AppConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/AppConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/ref/HttpServerLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/ref/HttpServerLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/refint/HttpServerLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/Debug/net8.0/refint/HttpServerLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServerLibrary/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServerLibrary/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/HttpServerLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/HttpServerLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/HttpServerLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/HttpServerLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/ORMLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/ORMLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/ORMLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/ORMLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/public/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/public/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/create_movies_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/create_movies_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/ref/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/ref/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/refint/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/refint/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/public/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/public/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/bin/Debug/net8.0/ORMLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/bin/Debug/net8.0/ORMLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/bin/Debug/net8.0/ORMLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/bin/Debug/net8.0/ORMLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ORMLibrary.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ref/ORMLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/ref/ORMLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/refint/ORMLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/Debug/net8.0/refint/ORMLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORMLibrary/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ORMLibrary/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezka.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Rezka.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +88,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/azalllka/semestr.git&quot;,
-    &quot;accountId&quot;: &quot;23d6e924-4248-4f42-a0c8-4266e5fbc285&quot;
+    &quot;url&quot;: &quot;https://azalllka@github.com/azalllka/semestrovka1.git&quot;,
+    &quot;accountId&quot;: &quot;1d52a920-fce3-4c95-b23b-e1cd87874c97&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -83,9 +135,12 @@
   "keyToString": {
     ".NET Project.Rezka.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.MyHttpServer/Dockerfile.executor": "Run",
+    "Docker.compose.yaml: Compose Deployment.executor": "Run",
     "JavaScript Debug.film.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,7 +155,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Rezka">
+  <component name="RunManager" selected="Docker.MyHttpServer/Dockerfile">
     <configuration name="Rezka" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -127,17 +182,40 @@
         <settings>
           <option name="imageTag" value="myhttpserver" />
           <option name="containerName" value="myhttpserver" />
-          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="contextFolderPath" value="." />
+          <option name="commandLineOptions" value="-p 8888:8888 --network web" />
           <option name="sourceFilePath" value="MyHttpServer/Dockerfile" />
         </settings>
       </deployment>
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Rezka" />
+      <item itemvalue="Docker.compose.yaml: Compose Deployment" />
+      <item itemvalue="Docker.MyHttpServer/Dockerfile" />
+      <item itemvalue="JavaScript Debug.film.html" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.film.html" />
@@ -166,7 +244,10 @@
       <workItem from="1736877991401" duration="8559000" />
       <workItem from="1736886621146" duration="24767000" />
       <workItem from="1737152284071" duration="247000" />
-      <workItem from="1737152536799" duration="4144000" />
+      <workItem from="1737152536799" duration="8090000" />
+      <workItem from="1737180778893" duration="7243000" />
+      <workItem from="1737657869953" duration="1985000" />
+      <workItem from="1737974844446" duration="5778000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

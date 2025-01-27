@@ -1,0 +1,24 @@
+﻿services:
+  myhttpserver:
+    image: myhttpserver
+    build:
+      context: .
+      dockerfile: MyHttpServer/Dockerfile
+    ports:
+      - "8888:8888"
+    expose:
+      - 8888
+    depends_on:
+      - database
+  
+  database:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: db
+    hostname: db
+    ports:
+      - "1433:1433"
+    expose:
+      - 1433
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "P@ssw0rd"
